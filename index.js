@@ -3,7 +3,7 @@
 // console.log(pisah[0].split(''));
 
 function stringArray(input){
-  let pisah = input.split(' ');
+  let pisah = input.split(',');
   // ['aqrst', 'ukaei', 'ffooo'];
 
   let tmp = [];
@@ -53,5 +53,5 @@ function stringArray(input){
   return tmp;
 }
 
-console.log(stringArray('aqrst ukaei ffooo'));
-console.log(stringArray('qwer tyui asdf ghjk'));
+console.log(stringArray('aqrst,ukaei,ffooo'));
+console.log(stringArray('qwer,tyui,asdf,ghjk'));
